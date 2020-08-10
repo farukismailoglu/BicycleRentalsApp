@@ -1,0 +1,12 @@
+C:\Users\Faruk\source\repos\BicycleRentalsApp\BicyleRentalsAppServiceLib\bin\Debug\netcoreapp3.1\BicyleRentalsAppServiceLib.deps.json
+C:\Users\Faruk\source\repos\BicycleRentalsApp\BicyleRentalsAppServiceLib\bin\Debug\netcoreapp3.1\BicyleRentalsAppServiceLib.dll
+C:\Users\Faruk\source\repos\BicycleRentalsApp\BicyleRentalsAppServiceLib\bin\Debug\netcoreapp3.1\BicyleRentalsAppServiceLib.pdb
+C:\Users\Faruk\source\repos\BicycleRentalsApp\BicyleRentalsAppServiceLib\obj\Debug\netcoreapp3.1\BicyleRentalsAppServiceLib.csprojAssemblyReference.cache
+C:\Users\Faruk\source\repos\BicycleRentalsApp\BicyleRentalsAppServiceLib\obj\Debug\netcoreapp3.1\BicyleRentalsAppServiceLib.AssemblyInfoInputs.cache
+C:\Users\Faruk\source\repos\BicycleRentalsApp\BicyleRentalsAppServiceLib\obj\Debug\netcoreapp3.1\BicyleRentalsAppServiceLib.AssemblyInfo.cs
+C:\Users\Faruk\source\repos\BicycleRentalsApp\BicyleRentalsAppServiceLib\obj\Debug\netcoreapp3.1\BicyleRentalsAppServiceLib.dll
+C:\Users\Faruk\source\repos\BicycleRentalsApp\BicyleRentalsAppServiceLib\obj\Debug\netcoreapp3.1\BicyleRentalsAppServiceLib.pdb
+C:\Users\Faruk\source\repos\BicycleRentalsApp\BicyleRentalsAppServiceLib\bin\Debug\netcoreapp3.1\BicyleRentalsAppRepositoryLib.dll
+C:\Users\Faruk\source\repos\BicycleRentalsApp\BicyleRentalsAppServiceLib\bin\Debug\netcoreapp3.1\BicyleRentalsAppRepositoryLib.pdb
+C:\Users\Faruk\source\repos\BicycleRentalsApp\BicyleRentalsAppServiceLib\obj\Debug\netcoreapp3.1\BicyleRentalsAppServiceLib.csproj.CopyComplete
+C:\Users\Faruk\source\repos\BicycleRentalsApp\BicyleRentalsAppServiceLib\obj\Debug\netcoreapp3.1\BicyleRentalsAppServiceLib.csproj.CoreCompileInputs.cache

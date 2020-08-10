@@ -1,0 +1,9 @@
+C:\Users\Faruk\source\repos\BicycleRentalsApp\BicycleRentalsModelsLib\bin\Debug\netcoreapp3.1\BicycleRentalsApp.Models.deps.json
+C:\Users\Faruk\source\repos\BicycleRentalsApp\BicycleRentalsModelsLib\bin\Debug\netcoreapp3.1\BicycleRentalsApp.Models.dll
+C:\Users\Faruk\source\repos\BicycleRentalsApp\BicycleRentalsModelsLib\bin\Debug\netcoreapp3.1\BicycleRentalsApp.Models.pdb
+C:\Users\Faruk\source\repos\BicycleRentalsApp\BicycleRentalsModelsLib\obj\Debug\netcoreapp3.1\BicycleRentalsModelsLib.csprojAssemblyReference.cache
+C:\Users\Faruk\source\repos\BicycleRentalsApp\BicycleRentalsModelsLib\obj\Debug\netcoreapp3.1\BicycleRentalsModelsLib.AssemblyInfoInputs.cache
+C:\Users\Faruk\source\repos\BicycleRentalsApp\BicycleRentalsModelsLib\obj\Debug\netcoreapp3.1\BicycleRentalsModelsLib.AssemblyInfo.cs
+C:\Users\Faruk\source\repos\BicycleRentalsApp\BicycleRentalsModelsLib\obj\Debug\netcoreapp3.1\BicycleRentalsModelsLib.csproj.CoreCompileInputs.cache
+C:\Users\Faruk\source\repos\BicycleRentalsApp\BicycleRentalsModelsLib\obj\Debug\netcoreapp3.1\BicycleRentalsApp.Models.dll
+C:\Users\Faruk\source\repos\BicycleRentalsApp\BicycleRentalsModelsLib\obj\Debug\netcoreapp3.1\BicycleRentalsApp.Models.pdb

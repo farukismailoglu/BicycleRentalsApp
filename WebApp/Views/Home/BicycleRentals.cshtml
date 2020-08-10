@@ -1,0 +1,83 @@
+﻿
+@{
+    ViewData["Title"] = "BicycleRentals";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+
+        $.getJSON('@Url.Action("GetAllCountry", "Home")', function (data) {
+
+			        var items = '<option value="" selected>--Seçiniz--</option>';
+			        $.each(data, function(index, item) {
+
+                        items += "<option value='" + item.id + "'>" + item.country + "</option>";
+
+
+                    });
+            //console.log(items);
+            $('#country').html(items);
+        });
+
+        $('#country').change(function () {
+            $.getJSON('@Url.Action("GetCityById", "Home")', { Id: $(this).val() }, function (data) {
+
+                var items = '<option value="" selected>--Seçiniz--</option>';
+                $.each(data, function (index, item) {
+
+                    items += "<option value='" + item.id + "'>" + item.city + "</option>";
+
+                });
+                $('#city').html(items);
+            });
+        });
+
+        $('#city').change(function () {
+            $.getJSON('@Url.Action("GetStationsByLocationId", "Home")', { Id: $(this).val() }, function (data) {
+
+                var items;
+
+                $.each(data, function (index, item) {
+                    console.log(item);
+                    items += '<tr><th scope="row">' + item.id + '</th><th>' + item.name + '</th><th>' + item.freeBikes + '</th><th>' + item.emptySlots + '</th><th> <button type="button" class="btn btn-info" id='+item.id+'>Select</button></th></tr>';
+
+                });
+                $('#tbl').html(items);
+            });
+        });
+    });
+</script>
+<h1>BicycleRentals</h1>
+
+<div>
+    <h4 class="text-center">Country</h4>
+    <div class="clearfix center-block" style="margin-left: 40px"></div>
+    <select class="form-control auditorSelect" id="country" name="country" style="width:100%">
+    </select>
+    <h4 class="text-center">City</h4>
+    <div class="clearfix center-block" style="margin-left: 40px"></div>
+    <select class="form-control auditorSelect" id="city" name="city" style="width:100%">
+    </select>
+    <hr />
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Free Bikes</th>
+                <th scope="col">Empty Slots</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody class="tbl" id="tbl">
+
+        </tbody>
+    </table>
+
+
+</div>

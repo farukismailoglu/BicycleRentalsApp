@@ -1,0 +1,33 @@
+
+2020-08-08T23:28:12.9085850+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-08-08T23:28:12.9238782+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-08-08T23:28:12.9264742+03:00  [INF] Content root path: "C:\Users\Faruk\source\repos\BicycleRentalsApp\WebApp" (b5d60022)
+2020-08-08T23:29:27.0194430+03:00 8000000a-0002-ff00-b63f-84710c7967bb [INF] Message:Add User, Inner Message:Exception of type 'System.Exception' was thrown. (bc291d21)
+2020-08-08T23:30:05.6440319+03:00 8000000a-0002-ff00-b63f-84710c7967bb [ERR] The view '"Error"' was not found. Searched locations: ["/Views/User/Error.cshtml", "/Views/Shared/Error.cshtml"] (9bb2756c)
+2020-08-08T23:30:05.7060450+03:00 8000000a-0002-ff00-b63f-84710c7967bb [ERR] An unhandled exception has occurred while executing the request. (48a46595)
+System.InvalidOperationException: The view 'Error' was not found. The following locations were searched:
+/Views/User/Error.cshtml
+/Views/Shared/Error.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2020-08-08T23:30:55.6400687+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-08-08T23:30:55.6501126+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-08-08T23:30:55.6519851+03:00  [INF] Content root path: "C:\Users\Faruk\source\repos\BicycleRentalsApp\WebApp" (b5d60022)
+2020-08-08T23:31:43.0527294+03:00 8000000b-0006-ff00-b63f-84710c7967bb [INF] Message:Add User, Inner Message:Exception of type 'System.Exception' was thrown. (bc291d21)
+2020-08-08T23:55:48.6357244+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2020-08-08T23:55:48.6500662+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2020-08-08T23:55:48.6528048+03:00  [INF] Content root path: "C:\Users\Faruk\source\repos\BicycleRentalsApp\WebApp" (b5d60022)
